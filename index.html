@@ -5,53 +5,89 @@
 	<link rel="stylesheet" href="boilerplate.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
     <title>Faculty Profiles</title>
     </head>
     <body>
 
-    <div class="container clearfix">
-        <div id="title-bar" class="clearfix">
-            <div class="title-content">
-                <a href="http://www.txstate.edu/"><img id="head-logo" src="img/Texas_State_Secondary_H_Whi.png" class="image" /></a>
-                <h1 id="title-text">Faculty Profiles</h1>
-            </div>
-        </div>
-
-        <div class="content">
-            <div class="header-gray">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-4">
-                            <div class="input-group mb-3">
-                             <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                             <div class="input-group-append"> <button class="btn btn-outline-secondary" type="button">Button</button> </div>
-                            </div>
-                        </div>
-                    </div>   
-                </div>
-            </div>    
-
-        </div>
-
-
-
-
-        <div id="footer" class="clearfix">
-            <div class="footer-content">
-                <div id="leftcollumn_footer" class="clearfix">
-                    <p class="footer-title"> Faculty Profiles</p>
-                    <p id="contact_info">
-                    For contact Email&#x3a;&nbsp;<a href="#">facultyqualifications&#x40;txstate.edu</a>
-                    </p>
-                </div>
-                <div id="rigthcolum_footer" class="clearfix">
-                    <a href="http://www.txstate.edu/"><img id="txst_logo_footer" src="img/txst_logo.png" class="image" /></a>
-                    <img id="tsus" src="img/tsus.png" class="image" />
+<!-- Header -->
+    <div class="container-fluid title-bar">
+        <div class="row">
+            <div class="col-xl-12" >
+                <div class="title-content ">
+                    <a href="http://www.txstate.edu/"><img id="head-logo" src="img/Texas_State_Secondary_H_Whi.png" class="image" /></a>
+                    <h1 id="title-text">Faculty Profiles</h1>
                 </div>
             </div>
         </div>
     </div>
+
+<!-- Search banner -->
+    <div class="container-fluid header-gray search-bar">
+        <div class="row justify-content-center ">
+            <div class="col-4">
+                <h2 class="search-bar-title">Find a Faculty </h2>
+            </div>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-4">
+                <div class="form-group ">
+                 <input type="email" class="form-control form-control-lg search-typography" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search name or keyword">
+                </div>
+            </div> 
+            <p class="search-typography">in</p>
+             <div class="col-4">
+                <div class="input-group">
+                      <select class="custom-select custom-select-lg search-typography" id="inputGroupSelect04">
+                        <option selected>College / Deparment</option>
+                        <option value="1">College One</option>
+                        <option value="2">College Two</option>
+                        <option value="3">Department Three</option>
+                      </select>
+                      <div class="input-group-append">
+                        <button class="btn btn-primary" type="button"><i class="fas fa-search"></i>&nbsp;Search</button>
+                      </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+<!-- Content-->
+    <div class="container">
+        <div class="row mt6">
+            <div class="col-6">
+             <h3> What is a faculty Profile</h3>   
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Sed sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl hendrerit gravida. Donec vehicula rhoncus mattis. </p>
+            </div>
+            <div class="col-6">
+            <img src="img/faculty_example.jpg" class="img-fluid" alt="Responsive image">    
+            </div>
+            
+        </div>
+        
+    </div>    
+
+<!-- Footer -->
+    <div class="container">
+        <div class="row">
+            <div id="footer">
+                <div class="footer-content">
+                    <div id="leftcollumn_footer">
+                        <p class="footer-title"> Faculty Profiles</p>
+                        <p id="contact_info">
+                        For contact Email&#x3a;&nbsp;<a href="#" class="badge badge-dark">facultyqualifications&#x40;txstate.edu</a>
+                        </p>
+                    </div>
+                    <div id="rigthcolum_footer" class="clearfix">
+                        <a href="http://www.txstate.edu/"><img id="txst_logo_footer" src="img/txst_logo.png" class="image" /></a>
+                        <img id="tsus" src="img/tsus.png" class="image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     </body>
 </html>
