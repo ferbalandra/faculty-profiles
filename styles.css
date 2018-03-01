@@ -5,9 +5,15 @@ body {
     font-size: 100%;
     color: #363534;
 }
-a{
-    color: none;
-}
+a{color: none;}
+
+h1{font-size: 1.75rem;}
+h2{font-size: 1.5rem;}
+h3{font-size: 1.2rem;}
+
+ul {list-style-position: outside;}
+
+
 
 /*General quick classes for style --------------------*/
 .mt2{ margin-top: 2em;  }
@@ -18,6 +24,7 @@ a{
 
 .pdb2{padding-bottom: 2em;}
 .pdb1{padding-bottom: 1.5em;}
+.pdb{padding-bottom: .5em;}
 
 .row-sm-ct{
     width: 75%;
@@ -36,8 +43,50 @@ a{
         font-size: 1.5em;
 }
 
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre;
+  width: auto; }
+
+.styles-header{
+    color: #654EA3;
+}
+.back-results-title a{ 
+    color:#406d9d; 
+    
+}
 
 
+/* Buttons*/
+.bt-profile{
+color: #363534;
+text-align: center;
+border: 2.5px solid #B6B6B6;
+border-radius: 7px;
+background-color: transparent;
+background-image: none;
+padding: .9rem 4rem;
+font-weight: 600;
+}
+
+.bt-profile:hover{
+    background-color: #f1f1f1;
+}
+/*Icon colors */
+
+.grn{color:#577C6E;}
+.gld{color: #DEB407;}
+.prpl{color: #806cb8;}
+.brwn{color: #9E6614;}
 
 /*header style --------------------*/
 .title-bar {
@@ -131,7 +180,21 @@ a{
 
 }
 
+.rank{
+   float: right;
+   margin-right: 19em;
+   margin-top: 6.8px;
+    font-weight: 600;
+    font-size: .9em;
+    color: #363534;
+    text-decoration: underline;
+}
 
+.citation{
+    font-family: UniversLTStd;
+    font-size: 16px;
+    color: #363534;
+}
 
 /*Footer styles overrides--------------------------------------------------------------------------------------*/ 
 #footer {
@@ -283,6 +346,11 @@ a{
     margin: 0 auto;
     }
    
+   .rank{
+    float: right;
+    margin-top: .3em;
+    margin-right: 0;
+}
 
     
 
