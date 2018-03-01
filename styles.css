@@ -12,6 +12,40 @@ h2{font-size: 1.5rem;}
 h3{font-size: 1.2rem;}
 
 ul {list-style-position: outside;}
+li{    padding-left: 10px;}
+
+.paintchips {
+  
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, .5);
+  margin-top: 5%;
+}
+.paint-color  {
+  height: 150px;
+  background-color: #235eba;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.gris{background-color: #F6F6F6;}
+.txst-maroon{ background-color: #501412;}
+.charcol{background-color: #363534;}
+.txst-blue{background-color: #005481;}
+.green-grillo{background-color: #14C673;}
+.sun-yellow{background-color: #FFCC4F;}
+
+.text-1 {
+  margin: 12px 0 0 5.6566455696%;
+  font-size: 1em;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  margin:0 0 0 6.05881%;
+  font-size: 1em;
+  color: #444444;
+}
 
 
 
